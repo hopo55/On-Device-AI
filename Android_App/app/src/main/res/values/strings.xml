@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Gesture Recognition</string>
+
+    <string name="data">Collect Data</string>
+    <string name="new_data">Collect New Data</string>
+    <string name="test">Test</string>
+    <string name="transfer">Transfer\n Learning</string>
+    <string name="stop_watch">00:00</string>
+    <string name="sampling_rate">Input Sampling Rate(ms)</string>
+    <string name="sampling">10000</string>
+    <string name="data_count">Data Count</string>
+    <string name="acc_text">Linear Acceleration</string>
+    <string name="gyro_text">Gyroscope</string>
+    <string name="axis">x, y, z</string>
+    <string name="ms">ms = microseconds / 10,000 = 0.01s = 100Hz</string>
+    <string name="digit_list">Target List</string>
+
+    <string name="description_1">Target1</string>
+    <string name="description_2">Target2</string>
+    <string name="description_3">Target3</string>
+    <string name="description_4">Target4</string>
+    <string name="description_5">Target 5</string>
+    <string name="description_6">Target 6</string>
+    <string name="description_7">Target 7</string>
+    <string name="description_8">Target 8</string>
+
+    <string name="model_run">Model Run</string>
+    <string name="model_inference">Model Inference</string>
+    <string name="tl_model_train">TL Model Train</string>
+    <string name="tl_model_stop">TL Model Stop</string>
+    <string name="tl_model_test">TL Model Test</string>
+    <string name="cl_train_count">CL Training Count : 0</string>
+    <string name="cl_model_train">CL Model Train</string>
+    <string name="cl_model_stop">CL Model Stop</string>
+    <string name="cl_model_test">CL Model Test</string>
+    <string name="cl_rehearsal">CL Rehearsal Method</string>
+
+    <string name="result">Result</string>
+
+    <string name="cnn2020">CNN2020 [2020 Mobile Net. App.]\n\n Deep learning models for real-time human activity recognition with smartphones.</string>
+    <string name="cnn_2stream">CNN-2Stream [2019 IEICE]\n\n A Deep Learning Approach to Writer Identification Using Inertial Sensor Data of Air-Handwriting.</string>
+    <string name="innohar">InnoHAR [2019 IEEE Access]\n\n InnoHAR: a deep neural network for complex human activity recognition.</string>
+
+    <string name="transfer_learning">Transfer Learning\n\n Collect Data &amp; Transfer Learning.</string>
+    <string name="transfer_learning_test">Transfer Learning Test\n\n Test Transfer Learning Models.</string>
+    <string name="tl_auto_test">Transfer Learning Auto Test\n\n Test Transfer Learning Models.</string>
+
+    <string name="add_target_1">Add Target 1</string>
+    <string name="add_target_2">Add Target 2</string>
+    <string name="add_target_3">Add Target 3</string>
+    <string name="add_target_4">Add Target 4</string>
+    <string name="add_target_5">Add Target 5</string>
+    <string name="add_target_6">Add Target 6</string>
+    <string name="add_target_7">Add Target 7</string>
+    <string name="add_target_8">Add Target 8</string>
+    
+    <string name="add_training">Add Training Data</string>
+    <string name="delete_training">Delete Data &amp; Train Model</string>
+    <string name="start_training">Start Transfer Learning</string>
+    <string name="stop_training">Stop Transfer Learning</string>
+    <string name="training_result">Data Collection Mode</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ActivityContentBase">
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:paddingTop">72dp</item>
+        <item name="android:paddingBottom">72dp</item>
+    </style>
+
+    <style name="Clickable">
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="TextAppearanceMainVisionNlp" parent="TextAppearance.AppCompat.Display1">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:letterSpacing">0.2</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="TextDigit" parent="TextAppearance.AppCompat.Display1">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:letterSpacing">0.2</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="TextAppearanceListCardTitle" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="TextAppearanceListCardDescription" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+</resources>

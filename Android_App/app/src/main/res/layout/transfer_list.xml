@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/ActivityContentBase"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/transfer_learning"
+        style="@style/Clickable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edge"
+            android:gravity="center"
+            android:text="@string/transfer_learning"
+            android:textSize="24sp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/transfer_learning_test"
+        style="@style/Clickable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/transfer_learning">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edge"
+            android:gravity="center"
+            android:text="@string/transfer_learning_test"
+            android:textSize="24sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/tl_auto_test"
+        style="@style/Clickable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/transfer_learning_test">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edge"
+            android:gravity="center"
+            android:text="@string/tl_auto_test"
+            android:textSize="24sp" />
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

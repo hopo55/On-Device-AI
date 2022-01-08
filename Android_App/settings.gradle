@@ -1,0 +1,4 @@
+include ':app'
+rootProject.name = "Gesture Recognition"
+include ':transfer_api'
+include ':OpenCV3415'

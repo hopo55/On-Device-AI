@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/digit_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="@string/digit_list"
+        android:textAppearance="@style/TextDigit" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/target_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/target_1"
+                    android:text="@string/description_1" />
+
+                <TextView
+                    android:id="@+id/target_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/target_2"
+                    android:text="@string/description_2" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/target_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/target_3"
+                    android:text="@string/description_3" />
+
+                <TextView
+                    android:id="@+id/target_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/target_4"
+                    android:text="@string/description_4" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/target_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/target_5"
+                    android:text="@string/description_5" />
+
+                <TextView
+                    android:id="@+id/target_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/target_6"
+                    android:text="@string/description_6" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/target_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/target_7"
+                    android:text="@string/description_7" />
+
+                <TextView
+                    android:id="@+id/target_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/target_8"
+                    android:text="@string/description_8" />
+            </TableRow>
+        </TableLayout>
+    </androidx.gridlayout.widget.GridLayout>
+
+
+</LinearLayout>

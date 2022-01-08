@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/timerView"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/stop_watch"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ms_mean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="300dp"
+        android:text="@string/ms"
+        app:layout_constraintBottom_toTopOf="@+id/collect_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/accView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="37dp"
+        android:text="@string/acc_text"
+        app:layout_constraintBottom_toTopOf="@+id/gyroView"
+        app:layout_constraintEnd_toStartOf="@+id/accValues"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ms_mean" />
+
+    <TextView
+        android:id="@+id/accValues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="100dp"
+        android:text="@string/axis"
+        app:layout_constraintBottom_toTopOf="@+id/gyroValues"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/accView"
+        app:layout_constraintTop_toBottomOf="@+id/ms_mean" />
+
+    <TextView
+        android:id="@+id/gyroView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="100dp"
+        android:text="@string/gyro_text"
+        app:layout_constraintEnd_toStartOf="@+id/gyroValues"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/accView" />
+
+    <TextView
+        android:id="@+id/gyroValues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="107dp"
+        android:text="@string/axis"
+        app:layout_constraintBottom_toTopOf="@+id/collect_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/gyroView"
+        app:layout_constraintTop_toBottomOf="@+id/accValues" />
+
+    <Button
+        android:id="@+id/collect_button"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="400dp"
+        android:text="@string/data"
+        app:layout_constraintBottom_toTopOf="@+id/collect_new_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timerView" />
+
+    <Button
+        android:id="@+id/collect_new_button"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="65dp"
+        android:text="@string/new_data"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/collect_button" />
+
+    <EditText
+        android:id="@+id/sampling"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/sampling"
+        android:selectAllOnFocus="true"
+        app:layout_constraintBottom_toTopOf="@+id/ms_mean"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timerView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
